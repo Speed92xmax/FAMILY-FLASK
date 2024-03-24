@@ -1,5 +1,10 @@
 {
     "workbench.editorAssociations": {   
         "*.md": "vscode.markdown.preview.editor",
-    }
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true
+    },
+    "python.analysis.autoImportCompletions": true
 }
